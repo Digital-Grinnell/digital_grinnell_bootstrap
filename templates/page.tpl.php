@@ -84,13 +84,11 @@
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
             </a>
           </div>
-          <?php if (!empty($site_slogan)): ?>
           <div class="gc-libraries-link-as-slogan right-half hidden-sm hidden-xs">   <!-- see https://stackoverflow.com/questions/27962534/how-to-hide-something-in-mobile-tablet-view-in-bootstrap-3 -->
-            <a class="pull-right" href="https://www.grinnell.edu/academics/libraries" target="_blank" title="<?php print t('Grinnell College Libraries'); ?>">
-              <img src="<?php print $site_slogan;?>" alt="<?php print t('Grinnell College Libraries'); ?>" />
+            <a class="pull-right" href="https://www.grinnell.edu/academics/libraries" target="_blank" title="Grinnell College Libraries">
+              <img src="sites/default/themes/digital_grinnell_bootstrap/Primary_Libraries.png" alt="Grinnell College Libraries" />
             </a>
           </div>
-          <?php endif; ?>
         </div>
       <?php endif; ?>
 
